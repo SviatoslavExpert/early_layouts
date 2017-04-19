@@ -1,0 +1,69 @@
+
+Asia Holidays BEM structure 
+
+<!--  CONTAINER GENERAL -->
+
+	container
+
+		<!--  HEADER -->
+		container__header  
+			header								HEADER
+				header__logo
+					logo
+						logo__link				A
+							logo__img                       IMG
+							logo__slogan			span
+
+				header__contacts
+					contacts
+						contacts__header			h2
+          					contacts__tel		
+						contacts__email		
+
+
+       Sasha has checked it so far.
+
+	
+
+		<!--  SECTION -->          graphic-menu
+		container__section
+			section                                                                 
+				section__menu-pics						NAV
+					menu-pics						UL
+						menu-pics__item					LI
+							menu-pics__link				A
+								menu__link_image		IMG
+								menu__link_title		p
+
+						menu-pics__item					LI
+							menu-pics__link				A
+								menu__link_image		IMG
+								menu__link_title		p
+
+						menu-pics__item					LI
+							menu-pics__link				A
+								menu__link_image		IMG
+								menu__link_title		p
+
+						menu-pics__item					LI
+							menu-pics__link				A
+								menu__link_image		IMG
+								menu__link_title		p
+
+						menu-pics__item					LI
+							menu-pics__link				A
+								menu__link_image		IMG
+								menu__link_title		p
+
+						menu-pics__item					LI
+							menu-pics__link				A
+								menu__link_image		IMG
+								menu__link_title		p
+
+
+		<!--  FOOTER -->
+		container__footer
+			footer
+				footer__copyright						
+					copyright  (блок) 					p
+

@@ -1,0 +1,140 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-size: 10pt;
+	/*outline: 1px solid red;*/
+	box-sizing: border-box;   
+}
+ul {
+	list-style: none; 
+}
+a {
+	text-decoration: none; 
+}
+body {
+	background: #000 url(../img/background.png) no-repeat center top;
+	font-family: tahoma;
+}
+
+/* CONTAINER GENERAL */
+.container { 
+	margin: 0 auto;
+	width: 826px;
+} 
+/* HEADER */
+.container__header { } 
+.header { } 
+/* logo */
+.header__logo { 
+	float: left;
+	margin: 57px 0 0 0;
+	background: url(../img/palm-image.png) 145px 0 no-repeat;
+	height: 145px;
+} 
+.logo { 
+	margin: 75px 0 0 4px;
+} 
+.logo__link {} 
+.logo__img {}
+.logo__slogan {
+	display: block;
+	padding: 3px 0 0 84px;
+	color: #d7d7d7;
+	font-size: 0.8rem;
+}
+.header__contacts {
+	float: right;
+	margin: 147px 13px 0 0;
+}
+.contacts {
+	color: #d7d7d7;
+	width: 96px;
+}
+.contacts__header {
+	font-size: 0.8rem;
+	color: #e6e6e6;
+	letter-spacing: -0.1px;
+	display: block;
+	font-weight: 400;
+	margin: 2px 0 0 1px;
+}
+.contacts__tel {
+	font-size: 0.7rem;
+	color: #e6e6e6;
+	letter-spacing: -0.4px;
+	margin: 4px 0 0 0;	
+}
+.contacts__email {
+	font-size: 0.7rem;
+	color: #e6e6e6;
+	letter-spacing: -0.3px;
+	margin: 0px 0 0 1px;	
+}
+/*  SECTION  */
+.container__section { 
+	clear: both;
+} 
+.menu-pics {} 
+.menu-pics__item { 
+	display: inline-block;
+	margin: 3px 6px 49px 3px;
+} 
+.menu-pics__item:nth-child(3n) {
+	margin: 3px 0 49px 3px;
+}
+.menu-pics__link1 {
+	background: url(../img/india.png) 0 0 no-repeat;
+}
+.menu-pics__link2 {
+	background: url(../img/nepal.png) 0 0 no-repeat;
+}
+.menu-pics__link3 {
+	background: url(../img/tibet.png) 0 0 no-repeat;
+}
+.menu-pics__link4 {
+	background: url(../img/bhutan.png) 0 0 no-repeat;
+}
+.menu-pics__link5 {
+	background: url(../img/srilanka.png) 0 0 no-repeat;
+}
+.menu-pics__link6 {
+	background: url(../img/maldives.png) 0 0 no-repeat;
+}
+.menu-pics__link1, .menu-pics__link2,
+.menu-pics__link3, .menu-pics__link4,
+.menu-pics__link5, .menu-pics__link6  { 
+	border-top: 2px solid #c2c2c2;
+	border-right: 2px solid #9d9d9d;
+	border-bottom: 2px solid #aaa;
+	border-left: 2px solid #9b9b9b;
+	border-radius: 3px;
+	box-shadow: inset 0 0 10px #000, 0 0 10px #000;
+	display: block; /* рамка стала на место */
+	margin: 0 0 0 0;
+	width: 264px;
+	height: 181px;
+} 
+.menu-pics__image {}
+.menu-pics__title {
+	color: #e6e6e6;
+	display: block;
+	text-align: center;  /* OK? */
+	font-size: 15px;
+	letter-spacing: 0.2px;
+}
+/*  FOOTER  */
+.container__footer {} 
+.footer {}
+.footer__copyright {
+	color: #e6e6e6;
+	font-size: 0.8rem;
+	margin: 135px 0 30px 0;
+	text-align: center;
+	letter-spacing: -0.2px;
+}
+/*  Важные моменты
+1. Пальма делается как фон для .header__logo.
+2. .menu-pics__item:nth-child(3n)
+3. Рамки вокруг картинок: в фотошопе 
+   картинка с рамкой в одном слое.
+*/
