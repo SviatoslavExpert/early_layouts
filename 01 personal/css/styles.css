@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+	/*outline: 1px solid red;*/
+}
+body {
+  	background: #eee;  
+	font: 18px "Times New Roman";
+	letter-spacing: -0.2px;
+}
+
+/*  ----- CONTAINER GENERAL  -----  */
+.container {
+	max-width: 512px;
+	padding: 49px 50px 64px;
+	margin: 4px auto 50px;
+	background-color: #fff;
+	box-shadow: 0 0 2px 0 rgba(0,0,0,0.5);
+}
+
+/* -----  HEADER  ----- */
+header { 
+	text-align: center;
+} 
+h1 {
+	font-size: 22px;
+	padding-bottom: 18px;
+	letter-spacing: 0;
+}
+p {
+	margin-left: 12px;
+}
+.student {
+	text-align: left;
+	margin-top: 5px;
+}
+section {
+	padding-top: 22px;
+	border-top: 1px solid #000;
+	line-height: 26px;
+}
+.frontend {
+	margin-top: 17px;
+}
+ul{
+	margin: 26px 0 0 37px;
+}
+.contacts {
+	margin-top: 16px;
+}
+.profile {
+	margin-top: 26px;
+}
+.feedback {
+	margin-top: 15px;
+	line-height: 27px;
+	letter-spacing: -0.3px;
+}
