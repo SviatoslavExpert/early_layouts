@@ -1,0 +1,60 @@
+
+@font-face {
+	font-family: 'Open Sans';
+	src: url('OpenSans.eot');
+	src: url('OpenSans.eot?#iefix') format('embedded-opentype'),
+		url('OpenSans.woff') format('woff'),
+		url('OpenSans.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600|Roboto+Slab:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');/* импорт всегда идет вначале)*/
+/* @import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Cabin|Lobster|Muli');	
+/*   При загрузке шрифтов из гугл фонтс нужно нажать на закладку Импорт*/	
+/* 
+@font-face {
+	font-family: 'winnie';
+	src: url('fonts/winnie.eot');
+	src: local('O'), url('fonts/winnie.woff') format('woff'), url('fonts/winnie.ttf') format('truetype'), url('fonts/winnie.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*  для каждого шрифта делать отдельный @font-face  */
+/* 
+html{
+	font-size: 10pt;
+}
+
+body{
+	font-size: 20pt;
+}
+
+h1{
+	font-family: 'Raleway', Arial; /* Arial, Tahoma, Verdana */
+	/*font-size: 2.5rem;   rem расчитываются по отношению к размеру ширфта в html (корневой элемент) */
+						/* pt, px, %, em, rem */
+	/*text-transform: uppercase;*//* 
+	letter-spacing: 10px;
+	line-height: 30px;
+	margin: 0;
+	text-align: center; 
+	width: 10%;
+}*/
+/* 
+	1. Шрифт копируется в папку фонтс.
+    2. В css вставка @font-face.
+	3. В конкретный див (селектор) вставляется название шрифта.
+	4. Часто в @font-face нужно убрать приставку conv в названии шрифта*/

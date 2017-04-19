@@ -1,0 +1,63 @@
+
+
+<!--  CONTAINER GENERAL -->
+
+container
+	container-box
+
+<!--   HEADER   -->   
+		
+		header 
+			logo
+				logo a					À		
+					IMG	A (IMG - ?)
+
+			menu						UL		
+				menu li					LI
+					menu li a			A
+
+<!--   CONTAINER LAYOUT   -->
+		layout						  
+
+		<!-- MENU -->
+
+			menu-nav					UL
+				menu-nav li    				LI              
+						menu-nav li a		A  
+
+
+		<!-- SECTION -->
+                              
+			section                                 	SECTION   
+				article					ARTICLE 
+					article img			IMG
+					article p			p
+					  
+<!--   FOOTER -->	
+	
+		footer                                           	FOOTER
+			footer-menu                              	UL
+					footer-menu li      		LI
+						footer-menu li a 	A
+			copyright
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
